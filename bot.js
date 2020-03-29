@@ -1,7 +1,6 @@
 require('dotenv').config();
 const discord = require('discord.js');
 const { MessageEmbed } = require("discord.js")
-const config = require("./config.json")
 let coins = require("./coins.json");
 let xp = require("./xp.json");
 const fs = require("fs");
