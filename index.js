@@ -52,7 +52,7 @@ client.on('guildMemberRemove', member =>{
 
 })
 client.on('ready' , ()=> {
-    const guild = client.guilds.cache.get("684672013868335134");
+    const guild = client.guilds.cache.get("692797013225373747");
     setInterval(function () {
        var memberCount = guild.members.cache.filter(member => !member.user.bot).size;  
        var memberCountChannel = client.channels.cache.get("692101208390762496");
@@ -62,7 +62,7 @@ client.on('ready' , ()=> {
   });
 
   client.on('guildMemberAdd', member =>  {
-    const guild = client.guilds.cache.get("684672013868335134");
+    const guild = client.guilds.cache.get("692797013225373747");
     setInterval(function () {
        var memberCount = guild.members.filter(member => !member.user.bot).size;  
        var memberCountChannel = client.channels.cache.get("692101208390762496");
@@ -70,7 +70,7 @@ client.on('ready' , ()=> {
     }, 1000);
   });
   client.on('guildMemberRemove', member =>  {
-    const guild = client.guilds.cache.get("684672013868335134");
+    const guild = client.guilds.cache.get("692797013225373747");
     setInterval(function () {
        var memberCount = guild.members.filter(member => !member.user.bot).size;  
        var memberCountChannel = client.channels.cache.get("692101208390762496");
